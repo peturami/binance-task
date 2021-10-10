@@ -1,0 +1,13 @@
+q1:
+  url: https://api.binance.com/api/v3/ticker/24hr
+  sort_col: volume
+  quote_in: btc
+q2:
+  url: https://api.binance.com/api/v3/ticker/24hr
+  sort_col: count
+  quote_in: usdt
+q3:
+  url: https://api.binance.com/api/v3/depth
+  limit: 200
+q4:
+  url: https://api.binance.com/api/v3/ticker/bookTicker
